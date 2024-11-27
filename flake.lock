@@ -11,16 +11,17 @@
       },
       "locked": {
         "dir": "esdbclient",
-        "lastModified": 1705227856,
-        "narHash": "sha256-mu3F53Bj7HAz8MOMCgtIgQ7ko8A0LG0MArCNqWbPHaM=",
+        "lastModified": 1731731825,
+        "narHash": "sha256-kOddDyUkMJEJm14yCbfW+DYceAzo/QRD8KDf92IcJJo=",
         "owner": "rydnr",
         "repo": "nix-flakes",
-        "rev": "783f471d5fd80d558483b16a48499ce2ecb024ad",
+        "rev": "a83da54f986cb6a60dc9b71309f186e97a604cff",
         "type": "github"
       },
       "original": {
         "dir": "esdbclient",
         "owner": "rydnr",
+        "ref": "esdbclient-1.1.3",
         "repo": "nix-flakes",
         "type": "github"
       }
@@ -43,16 +44,16 @@
     },
     "nixos": {
       "locked": {
-        "lastModified": 1701282334,
-        "narHash": "sha256-MxCVrXY6v4QmfTwIysjjaX0XUhqBbxTWWB4HXtDYsdk=",
+        "lastModified": 1717179513,
+        "narHash": "sha256-vboIEwIQojofItm2xGCdZCzW96U85l9nDW3ifMuAIdM=",
         "owner": "NixOS",
         "repo": "nixpkgs",
-        "rev": "057f9aecfb71c4437d2b27d3323df7f93c010b7e",
+        "rev": "63dacb46bf939521bdc93981b4cbb7ecb58427a0",
         "type": "github"
       },
       "original": {
         "owner": "NixOS",
-        "ref": "23.11",
+        "ref": "24.05",
         "repo": "nixpkgs",
         "type": "github"
       }

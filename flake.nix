@@ -17,15 +17,14 @@
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <https://www.gnu.org/licenses/>.
 {
-  description =
-    "testcontainers-python facilitates the use of Docker containers for functional and integration testing.";
+  description = "Nix flake for testcontainers-python";
   inputs = rec {
     flake-utils.url = "github:numtide/flake-utils/v1.0.0";
-    nixos.url = "github:NixOS/nixpkgs/23.11";
+    nixos.url = "github:NixOS/nixpkgs/24.05";
     esdbclient = {
       inputs.flake-utils.follows = "flake-utils";
       inputs.nixos.follows = "nixos";
-      url = "github:rydnr/nix-flakes?dir=esdbclient";
+      url = "github:rydnr/nix-flakes/esdbclient-1.1.3?dir=esdbclient";
     };
   };
   outputs = inputs:

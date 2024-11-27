@@ -72,3 +72,9 @@ venv
 .python-version
 .env
 .github-token
+
+result
+deps.txt
+deps.dot
+deps.png
+src
